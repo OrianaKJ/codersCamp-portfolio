@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=latin-ext');
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    background: url() no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.portfolio {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.portfolio__nav {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.portfolio__list {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+
+.list__item {
+    width: 150px;
+    margin: 16px;
+    list-style: none;
+}
+
+.list__item-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav::before {
+    content: " ";
+    margin-right: 20px;
+    border: 2px solid gold;
+}
+
+.portfolio__welcome, .portfolio__about-me, .portfolio__skills, .portfolio__projects, .portfolio__contact {
+    height: 100vh;
+}
+
+.welcome__title {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 54px;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    animation-name: title;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    font-family: 'Monoton', cursive;
+}
+
+@keyframes title {
+    0% {
+        left: -50%
+    }
+    100% {
+        left: 50
+    }
+}
+
+.welcome__title--gold {
+    color: #ffd700;
+}
+
+.welcome__title--pink {
+    color: #CC45A1;
+}
+
+.welcome__title--sky {
+    color: #8AFCFF;
+}
+
+.welcome__title--gradient {
+    background: -webkit-linear-gradient(#ffd700, #cc45a1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
