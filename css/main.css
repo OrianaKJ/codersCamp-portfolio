@@ -120,6 +120,7 @@ html {
 .about-me__description {
     line-height: 2.5rem;
     text-align: justify;
+    margin: 16px;
 }
 
 .title {
@@ -146,6 +147,7 @@ html {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+    margin: 16px;
 }
 
 .project__card {
