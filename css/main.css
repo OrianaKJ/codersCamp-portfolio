@@ -4,6 +4,11 @@
     box-sizing: inherit;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     box-sizing: border-box;
     font-size: 24px;
@@ -14,7 +19,7 @@ html {
 
 .portfolio {
     max-width: 1024px;
-    margin: 0 auto;
+    margin: 16px auto;
 }
 
 .portfolio__header {
@@ -150,4 +155,79 @@ html {
     border-radius: 20px;
     padding: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.portfolio__contact {
+    text-align: center;
+}
+
+.contact__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__icon {
+    width: 40px;
+    cursor: pointer;
+}
+
+.portfolio__footer {
+    max-width: 100%;
+    height: 70px;
+    background-color: #ffd700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__form {
+    border: 5px solid #ffd700;
+    background: #ffd700;
+    margin-bottom: 36px;
+    font-family: 'Playfair Display', serif;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 36px auto;
+}
+
+.contact__label {
+    display: flex;
+    margin: 16px;
+    text-align: left;
+}
+
+.contact__input {
+    line-height: 36px;
+    width: 500px;
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+    padding: 8px;
+    border: none;
+    border-bottom: 3px solid #ddd;
+}
+
+.contact__button {
+    width: 100px;
+    height: 36px;
+    border: 2px solid #CC45A1;
+    background: #CC45A1;
+    border-radius: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin: 8px;
+}
+
+.portfolio__footer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.footer__info {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
 }
