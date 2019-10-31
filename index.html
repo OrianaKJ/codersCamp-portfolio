@@ -44,7 +44,6 @@
                 <li class="skills list__item">Flexbox</li>
                 <li class="skills list__item">Grid</li>
                 <li class="skills list__item">Markdown</li>
-                <li class="skills list__item">JS Local storage</li>
                 <li class="skills list__item">Figma</li>
                 <li class="skills list__item">CSS grid</li>
                 <li class="skills list__item">Forms</li>
@@ -67,16 +66,26 @@
             <h2 class="contact__title title">Contact</h2>
             <p>If you want to contact me, don't hesitate and catch me at:</p>
             <ul class="contact__list">
-                <li class="contct list__item"><a class="contact__link" href="#">LinkedIn</a></li>
-                <li class="contct list__item"><a class="contact__link" href="#">GitHub</a></li>
-                <li class="contct list__item"><a class="contact__link" href="#">Facebook</a></li>
+                <li class="contct list__item"><a class="contact__link" href="#"><img class="contact__icon"
+                            src="/img/linkedin.svg" alt="LinkedIn icon"></a></li>
+                <li class="contct list__item"><a class="contact__link" href="#"><img class="contact__icon"
+                            src="/img/github.svg" alt="GitHub icon"></a></li>
             </ul>
-            <p class="contact__msg">Or send me a message</p>
+            <p class="contact__msg">or send me a message</p>
+            <form class="contact__form" action="">
+                <label class="contact__label" for="name"><input class="contact__input" type="text"
+                        placeholder="Enter your name:"></label>
+                <label class="contact__label" for="mail"><input class="contact__input" type="email"
+                        placeholder="Enter your email:""></label>
+                <label class=" contact__label" for="message"><textarea class="contact__input" name="message" id="msg"
+                        cols="30" rows="5" placeholder="Enter your message:""></textarea> </label>
+                        <button class=" contact__button" type="submit">Send</button>
+            </form>
         </article>
-        <footer class="portfolio__footer">
-            <p class="footer__info">All rights reserved&copy;. Made with love by Oriana</p>
-        </footer>
     </main>
+    <footer class=" portfolio__footer">
+        <p class="footer__info">All rights reserved&copy;. Made with love by Oriana</p>
+    </footer>
     <script src="js/main.js">
     </script>
 </body>
