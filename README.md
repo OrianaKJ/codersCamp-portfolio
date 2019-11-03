@@ -1,7 +1,7 @@
 ![Portfolio screenshot](github/mainDesctop.jpg)
 # Portfolio project
 This is the first project for CodersCamp course. The goal was to create a portfolio containing information about the author and completed projects.
-You can preview demo of this project here:
+You can preview demo of this project here: https://orianakj.github.io/codersCamp-portfolio/
 
 ## The project should include:
 - box-model
