@@ -295,6 +295,7 @@ html {
         line-height: 2rem;
     }
     .title {
+        padding-top: 178px;
         font-size: 36px;
     }
     .projects__all-projects {
