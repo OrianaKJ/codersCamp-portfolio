@@ -21,6 +21,9 @@ In small projects like this it is not necessary to use flex, grid and bootstrap.
 ## What additional functionalities does my project have?
 - contact form with the modal that is launched after clicking the send button
 - media queries for screens with max-width: 500px and max-width: 768px
+- custom console.log message
+
+![Custom console message](github/consoleMsg.jpg)
 
 ## Portfolio sections
 The project was divided into 5 sections:
