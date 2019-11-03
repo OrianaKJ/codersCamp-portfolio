@@ -33,7 +33,7 @@ html {
 }
 
 .portfolio__nav {
-    width: 100%;
+    width: auto;
     font-family: 'Monoton', cursive;
 }
 
@@ -136,11 +136,13 @@ html {
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-size: 24px;
+    align-items: center;
+    justify-content: center;
 }
 
 .skills {
     list-style: linear-gradient(#ffd700, #CC45A1);
-    margin: 8px auto;
+    margin: 8px;
 }
 
 .projects__all-projects {
@@ -161,6 +163,7 @@ html {
 
 .portfolio__contact {
     text-align: center;
+    margin: 16px;
 }
 
 .contact__list {
@@ -188,7 +191,7 @@ html {
     background: #ffd700;
     margin-bottom: 36px;
     font-family: 'Playfair Display', serif;
-    width: 600px;
+    max-width: 600px;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 36px auto;
@@ -272,4 +275,55 @@ html {
     border: none;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 22px;
+    }
+    .portfolio__list {
+        display: block;
+    }
+    .list__item {
+        margin: 8px;
+    }
+    .welcome__title {
+        font-size: 48px;
+    }
+    .about-me__description {
+        line-height: 2rem;
+    }
+    .title {
+        font-size: 36px;
+    }
+    .projects__all-projects {
+        grid-template-columns: 1fr 1fr;
+    }
+    .modal__content {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 18px;
+    }
+    .welcome__title {
+        font-size: 1.5rem;
+    }
+    .about-me__description {
+        line-height: 1.5rem;
+    }
+    .skills__list {
+        font-size: 18px;
+    }
+    .modal__content {
+        max-width: 320px;
+    }
+    .projects__all-projects {
+        grid-template-columns: 1fr;
+    }
+    .footer__info {
+        margin: 8px;
+    }
 }
